@@ -1,0 +1,17 @@
+MAKE SOMETHING THAT YOU CAN BE PROUD ENOUGH OF TO VOLUNTEER TO PRESENT MEET ALL THE DAM REQUIREMENTS
+
+Goal create a website that promotes my freind's bakery through a website that improves the stores online presence * creates a social media page for them * in a fashionable manner
+
+
+Create a link to  the cakes, cookies, muffins section of the website
+
+
+NOT REQUIRED
+**
+enter their email, * thru a form * and an email will be sent to them that includes all of the products we offer
+**
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:synthefire/gem-bakery.git
+git push -u origin master
