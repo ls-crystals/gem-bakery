@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="goods.css">
+<div class="cookies">
+  <% @@cookies.each do |cookie| %>
+    <div class="pics">
+    <img src="<%= cookie.image %>">
+    </div>
+
+    <h2 id ="name"><%= cookie.name %> Cookie</h2>
+    <h2 id ="allerg"><%= cookie.allergens %> Cookie</h2>
+    <p id ="desc"><%= cookie.description %></p>
+    <p id ="price">$<%= cookie.price %></p>
+</div>
+    <% end %>
