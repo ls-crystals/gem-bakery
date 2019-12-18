@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="goods.css">
+
+<div class="muffins">
+  <% @@muffins.each do |muffins| %>
+  <%= @@muffins.index(muffins)+1 %>
+
+    <div class="pics">
+    <img src="<%= muffins.image %>">
+    </div>
+
+    <h2 id ="name"><%= muffins.name %> </h2>
+    <h2 id ="allerg"><%= muffins.allergens %> </h2>
+    <p id ="desc"><%= muffins.description %></p>
+    <p id ="price">$<%= muffins.price %></p>
+</div>
+    <% end %>

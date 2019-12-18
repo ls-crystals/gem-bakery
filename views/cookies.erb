@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="goods.css">
-<div class="cookies">
   <% @@cookies.each do |cookie| %>
     <div class="pics">
     <img src="<%= cookie.image %>">
     </div>
+<div class="info">
 
     <h2 id ="name"><%= cookie.name %> Cookie</h2>
     <h2 id ="allerg"><%= cookie.allergens %> Cookie</h2>

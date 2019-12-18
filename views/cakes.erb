@@ -1,1 +1,13 @@
+<link rel="stylesheet" href="goods.css">
+<div class="cookies">
+  <% @@cakes.each do |cake| %>
+    <div class="pics">
+    <img src="<%= cake.image %>">
+    </div>
 
+    <h2 id ="name"><%= cake.name %> </h2>
+    <h2 id ="allerg"><%= cake.allergens %> </h2>
+    <p id ="desc"><%= cake.description %></p>
+    <p id ="price">$<%= cake.price %></p>
+</div>
+    <% end %>

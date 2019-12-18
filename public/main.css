@@ -1,0 +1,89 @@
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+background-image: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+/*background-image: url("https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=581&q=80");*/
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+
+#geo{
+  margin-left:25%;
+}
+
+.header{
+background-image: url('https://cms.splendidtable.org/sites/default/files/styles/w2000/public/Soft-Buns-LEDE.jpg?itok=-eE9eh0w');
+padding-right: 5%;
+margin-top: 1%;
+padding-bottom: -10%;
+margin-left:25%;
+margin-right:60%;
+margin-bottom: 3%;
+}
+
+#logo{
+  font-family: 'Calligraffitti', cursive;
+  text-align: center;
+  padding: 10%;
+  padding-top: 5%;
+  margin-top: 1%;
+  margin-left:50%;
+  margin-right:60%;
+  margin-bottom: 1%;
+  background-color: white;
+
+  font-size: 150%;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 0%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+  font-family: 'Calligraffitti', cursive;
+
+}
+
+#pop{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-blend-mode: overlay;
+  background-color: black;
+}
+
+.grids{
+  background-color: rgba(104, 0, 0, 0.5);
+  display: block;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 30px auto 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template: repeat(4,100px) / repeat(4,100px);
+  grid-gap: 300px;
+  margin-left: 10px;
+
+}
