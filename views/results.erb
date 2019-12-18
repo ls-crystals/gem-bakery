@@ -1,0 +1,16 @@
+<% @results.each do |result| %>
+<div class='book-result'>
+<h3><%= result.title %></h3>
+<h4><%= result.authors %></h4>
+<img src='<%= result.image_link %>' />
+<a href='<%= result.info_link %>'>More info</a>
+
+
+</div>
+<%# he name of the book %>
+<%# the author, if any %>
+<%# an image of it, if any %>
+<%# and a link to the it. %>
+
+
+<% end %>
