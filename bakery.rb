@@ -9,6 +9,7 @@ class Pastry
      @description = description
      @image = image
      @allergens = allergens
+     @price = price
 
  end
 end
@@ -20,6 +21,8 @@ class Cookie < Pastry
      @description = description
      @image = image
      @allergens = allergens
+     @price = price
+
   end
 end
 
@@ -30,6 +33,8 @@ class Cake < Pastry
     @description = description
     @image = image
     @allergens = allergens
+    @price = price
+
  end
 end
 class Muffin < Pastry
@@ -39,6 +44,8 @@ class Muffin < Pastry
     @description = description
     @image = image
     @allergens = allergens
+    @price = price
+
   end
  end
 

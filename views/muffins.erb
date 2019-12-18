@@ -1,16 +1,22 @@
 <link rel="stylesheet" href="goods.css">
+<link href="https://fonts.googleapis.com/css?family=Della+Respira&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Harmattan&display=swap" rel="stylesheet">
+
+
 
 <div class="muffins">
   <% @@muffins.each do |muffins| %>
   <%= @@muffins.index(muffins)+1 %>
 
     <div class="pics">
-    <img src="<%= muffins.image %>">
+    <img src="<%= muffins.image %>"height="150px" width="150px">
     </div>
+    <div class="info">
 
     <h2 id ="name"><%= muffins.name %> </h2>
     <h2 id ="allerg"><%= muffins.allergens %> </h2>
     <p id ="desc"><%= muffins.description %></p>
     <p id ="price">$<%= muffins.price %></p>
+    </div>
 </div>
     <% end %>

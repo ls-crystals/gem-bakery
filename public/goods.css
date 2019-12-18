@@ -1,43 +1,58 @@
 body{
-  background-image: url("https://images.unsplash.com/photo-1517811409552-396f829138a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("https://images.unsplash.com/photo-1436968188282-5dc61aae3d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 background-size: cover;
 background-repeat: no-repeat;
-overflow-x:hidden; 
+overflow-x:hidden;
 }
 
 .pics{
-  grid-column-gap: 10px;
-  grid-row-gap: 5px;
-  grid-template: repeat(4,100px) / repeat(4,100px);
+
 }
 
 
 #name{
+  color: black;
   background-color:white;
-  font-family: sans-serif;
+  font-family: 'Della Respira', serif;
+  background-size: contain;
 
+
+}
+
+p{
+  font-size: 150%;
 }
 
 
 #allerg{
-  background-color:white;
-  font-family: sans-serif;
+  color: white;
+  background-size: contain;
+  padding: 50px;
+
 }
 
 #desc{
-  background-color:white;
-  font-family: sans-serif;
+  color: white;
+  background-size: contain;
+
 }
 #price{
-  background-color:white;
-  font-family: sans-serif;
+  color: white;
+  background-size: contain;
 }
 
 #slice{
-  background-color:white;
-  font-family: sans-serif;
+
+  color: white;
+  background-size: contain;
+
 }
 
 .info{
-  background-color: black;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  background-size: contain;
+  font-family: 'Harmattan', sans-serif;
+
+
 }

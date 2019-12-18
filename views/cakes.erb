@@ -1,13 +1,22 @@
 <link rel="stylesheet" href="goods.css">
+<link href="https://fonts.googleapis.com/css?family=Della+Respira&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Harmattan&display=swap" rel="stylesheet">
+
+
 <div class="cookies">
   <% @@cakes.each do |cake| %>
     <div class="pics">
-    <img src="<%= cake.image %>">
+    <img src="<%= cake.image %>"height="150px" width="150px">
     </div>
+    <div class="info">
+
 
     <h2 id ="name"><%= cake.name %> </h2>
     <h2 id ="allerg"><%= cake.allergens %> </h2>
     <p id ="desc"><%= cake.description %></p>
     <p id ="price">$<%= cake.price %></p>
+    </div>
+
+    </div>
 </div>
     <% end %>
