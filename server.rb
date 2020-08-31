@@ -1,6 +1,6 @@
 require 'sinatra'
 require "./bakery.rb"
-set port:ENV["PORT"]
+set port:3000
 
 
 
