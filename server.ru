@@ -1,7 +1,6 @@
 require 'sinatra'
 require "./bakery.rb"
 set port:3000
-ruby "2.6.6"
 
 
 
@@ -25,3 +24,4 @@ end
 get '/cookies' do
   erb:cookies
 end
+run Sinatra::Application.run!

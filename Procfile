@@ -1,1 +1,1 @@
-web: ruby server.rb
+web: rackup server.ru
