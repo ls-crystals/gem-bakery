@@ -1,1 +1,1 @@
-web: rackup server.ru
+web: rackup config.ru
