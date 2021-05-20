@@ -3,11 +3,32 @@ GEM
   specs:
     faraday (0.17.1)
       multipart-post (>= 1.2, < 3)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
     jwt (2.2.1)
-    mini_portile2 (2.4.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2021.0225)
+    multi_xml (0.6.0)
     multipart-post (2.1.1)
-    nokogiri (1.10.7-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    nokogiri (1.11.5-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.11.5-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.5.2)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    ruby2_keywords (0.0.4)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    tilt (2.0.10)
     twilio-ruby (5.31.0)
       faraday (~> 0.9)
       jwt (>= 1.5, <= 2.5)
@@ -15,8 +36,11 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
+  httparty
+  sinatra
   twilio-ruby
 
 BUNDLED WITH
